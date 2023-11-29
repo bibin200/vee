@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Redirecting</title>
+    <style>
+        .myDiv{
+        text-align:center;
+        }
+    </style>
+</head>
+<body style="background-color:red;">
+<form action="form" method="post">
+     {% csrf_token %}
+<div class="myDiv">
+    <button>
+        Click Here
+    </button>
+</div>
+</form>
+<!--<form>-->
+<!--     <input style="text-align:center;" type="button" value="Clike here">-->
+
+<!--</form>-->
+</body>
+</html>
